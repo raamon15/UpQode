@@ -484,7 +484,7 @@ footer .fa-twitter-square:hover {
 }
 
 input.textarea {
-  min-width: 97%;
+  min-width: 99%;
   padding-bottom: 65px;
 }
 
@@ -512,16 +512,8 @@ input.textarea {
 .second-block {
     display: none;
   }
-
-  .form-wrapper {
-    padding: 32px 0px;
-  }
-
-  .adress {
-    padding-left: 0;
-  }
-
-  .map-overlay input {
+ 
+.map-overlay input {
     margin: 10px 0 10px 0;
   }
 
@@ -577,4 +569,7 @@ a.active {
     padding: 0;
     text-align: center;
   }
+  .adress {padding-left:0px;}
+  .form-wrapper {padding: 31px 50px;}
+
 }
